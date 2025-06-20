@@ -31,6 +31,18 @@ cd kichiviewerbot
 
 pip install -r requirements.txt (Or you can click on install.bat file)
 ```
+## Docker
+
+Copy the example environment file and launch the container using
+`docker-compose`:
+
+```bash
+cp .env.example .env
+docker compose up --build
+```
+
+The proxy list from `/home/a.zubrev/proxy/proxy.json` will be mounted into the
+container.
 ## Usage ⚙️
 
 - **After completing the installation process, make sure that you have successfully installed the chromedriver.**
