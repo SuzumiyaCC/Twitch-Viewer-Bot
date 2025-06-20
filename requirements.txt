@@ -1,4 +1,1 @@
-colorama
-pystyle
 selenium
-requests

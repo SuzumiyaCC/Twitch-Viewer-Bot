@@ -1,0 +1,7 @@
+version: '3'
+services:
+  viewer:
+    build: .
+    env_file: .env
+    volumes:
+      - /home/a.zubrev/proxy/proxy.json:/home/a.zubrev/proxy/proxy.json:ro
